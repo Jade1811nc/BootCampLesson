@@ -1,0 +1,138 @@
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-color: aqua ;
+    font-family: "Nanum Gothic Coding", monospace;
+    
+}
+
+.logo h2  {
+    color: blueviolet;
+    font-family: "Shrikhand", serif;
+    font-size: 650%;
+  font-weight: 100;
+  font-style: normal;
+  padding: 10%;
+  animation: 3s linear 0s infinite running mylogo
+}
+
+.logo h2 :hover{
+
+}
+.logo h2 :active{
+
+}
+
+@keyframes mylogo{
+    100%{transform: rotateX(360deg)}
+}
+
+ul {
+    display: flex;
+    list-style-type:none;
+}
+
+a {
+    list-style-type: circle;
+}
+
+li {
+    padding: 20%;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.social-icon {
+    font-size: 130%;
+    margin-top: 2%;
+}
+
+.me {
+    display:flex
+}
+
+.me-pic{
+    padding: 10%;
+    border-radius: 50%;
+    margin: 15%;
+}
+
+.me-content{
+    line-height: 250%;
+    font-size: medium;
+    font-family: fantasy
+}
+
+#name-con {
+    color: orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+.bio {
+    text-align: center;
+    font-size: medium;
+    
+}
+
+.headingB {
+    color: red;
+    font-size: 300%;
+    font-style: italic;
+    font-style: oblique;
+    font-family: cursive;
+    animation: 3s linear 0s infinite running bio
+}
+  @keyframes bio {
+    100%{transform:rotateY(360deg)}
+     }
+         
+.jadevid {
+    display: block;
+    margin:auto
+}
+
+.maps {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#loc { 
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: medium;
+       font-style: normal;
+       color: red;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 0%
+    
+}
+
+.btn {
+    width: 100%;
+    height: 200%;
+    background-color: blueviolet;
+    color: black;
+    border: none;
+}
+
+
+
+
